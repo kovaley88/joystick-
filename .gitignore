@@ -1,0 +1,26 @@
+# Системные файлы
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Временные файлы
+*.log
+*.tmp
+*.temp
+
+# Зависимости (если будут)
+node_modules/
+package-lock.json
+yarn.lock
+
