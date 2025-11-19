@@ -4,17 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <!-- Подключение шрифта Poppins ExtraBold из Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap"
       rel="stylesheet"
     />
-    <!-- Favicon - иконка игрового джойстика -->
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    <!-- Подключение стилей после загрузки шрифта -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -43,9 +40,36 @@
           </p>
           <button class="btn">Get more details</button>
         </div>
-      </div>
 
-      <img src="img/joy_stick 1.svg" alt="hero" class="hero-image" />
+        <!-- ←←←← ВОТ ЭТА СТРОКА БЫЛА СНАРУЖИ. ПЕРЕНЕСИ ЕЁ СЮДА (внутрь .hero) →→→→ -->
+        <img src="img/joy_stick 1.svg" alt="hero" class="hero-image" />
+      </div>
+      <div class="container trending">
+        <h1>Currently Trending Games</h1>
+        <a href="#" class="see-all">SEE ALL</a>
+
+        <div class="games">
+          <div class="block">
+            <img src="img/Rectangle 23.png" alt="" />
+            <span><img src="img/fire 1.svg" alt="" />40 Followers</span>
+          </div>
+
+          <div class="block">
+            <img src="img/Rectangle 24.png" alt="" />
+            <span><img src="img/fire 1.svg" alt="" />40 Followers</span>
+          </div>
+
+          <div class="block">
+            <img src="img/Rectangle 25.png" alt="" />
+            <span><img src="img/fire 1.svg" alt="" />40 Followers</span>
+          </div>
+
+          <div class="block">
+            <img src="img/Rectangle 26.png" alt="" />
+            <span><img src="img/fire 1.svg" alt="" />40 Followers</span>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
